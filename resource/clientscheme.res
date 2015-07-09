@@ -2660,7 +2660,7 @@ Scheme
 			{
 				"name"		"Snowstorm"
 				"tall"		"32"
-				"weight"	"500"
+				"weight"	"1000"
 				"antialias" "1"
 			}
 		}	
