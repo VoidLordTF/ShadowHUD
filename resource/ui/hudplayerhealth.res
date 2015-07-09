@@ -49,10 +49,9 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
+		"xpos"			"99999"	[$WIN32]
 		"xpos_minmode"	"65"	[$WIN32]
-		"xpos"			"83"	[$X360]
-		"ypos"			"33"	[$WIN32]
+		"ypos"			"99999"	[$WIN32]
 		"ypos_minmode"	"40"	[$WIN32]
 		"ypos"			"43"	[$X360]
 		"zpos"			"2"
@@ -63,7 +62,7 @@
 		"tall_minmode"	"40"	[$WIN32]
 		"tall"			"35"	[$X360]
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
@@ -103,10 +102,10 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamIndicator"
-		"xpos"			"98"
+		"xpos"			"92"
 		"ypos"			"45"
 		"zpos"			"2"
-		"wide"			"55"
+		"wide"			"5"
 		"tall"	 		"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -122,7 +121,21 @@
 		"src_corner_width"		"40"			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
-	}		
+	}
+	"HealthBG"
+	{
+		"ControlName"	"ImagePanel"
+		"FieldName"		"HealthBG"
+		"xpos"			"92"
+		"ypos"			"45"
+		"zpos"			"-1"
+		"wide"			"62"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"fillColor"		"0 0 0 140"
+	}
 	"PlayerStatusBleedImage"	
 	{
 		"ControlName"	"ImagePanel"
