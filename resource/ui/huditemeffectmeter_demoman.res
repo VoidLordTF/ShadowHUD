@@ -11,7 +11,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 125"
+		"fillcolor"		"0 0 0 150"
 	}
 	
 	"TeamIndicator"
@@ -128,7 +128,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"25"
-		"ypos"					"27"
+		"ypos"					"25"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -143,28 +143,6 @@
 		"brighttext"			"0"
 		"font"					"Snowstorm12"
 		"fgcolor_override"		"255 255 255 255"
-	}
-	
-	"ItemEffectMeterLabelBG"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabelBG"
-		"xpos"					"26"
-		"ypos"					"28"
-		"zpos"					"2"
-		"wide"					"41"
-		"tall"					"15"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"HEADS"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"Snowstorm12"
-		"fgcolor_override"		"0 0 0 255"
 	}
 	
 	"ItemEffectMeter"
@@ -209,26 +187,5 @@
 		"brighttext"			"0"
 		"font"					"Snowstorm20"
 		"fgcolor"				"255 255 255 255"
-	}
-	
-	"ItemEffectMeterCountBG"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCountBG"
-		"xpos"					"26"
-		"ypos"					"11"
-		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"20"	
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"Snowstorm20"
-		"fgcolor"				"0 0 0 255"
 	}
 }

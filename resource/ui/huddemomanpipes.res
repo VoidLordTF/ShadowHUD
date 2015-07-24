@@ -69,11 +69,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PipesPresentPanel"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"c45"
+		"ypos"			"360"
 		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"50"
+		"wide"			"640"
+		"tall"			"480"
 		"visible"		"1"
 		
 		"PipeIcon"
@@ -99,21 +99,21 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"PipesBG"
-			"xpos"			"20"
+			"xpos"			"35"
 			"ypos"			"9"
 			"zpos"			"-1"
-			"wide"			"79"
+			"wide"			"25"
 			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"0 0 0 100"
+			"fillcolor"		"0 0 0 150"
 		}
 		
 		"TeamIndicator"
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"TeamIndicator"
-			"xpos"			"95"
+			"xpos"			"75"
 			"ypos"			"9"
 			"zpos"			"2"
 			"wide"			"5"
@@ -138,7 +138,7 @@
 		{
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"TeamIndicator2"
-			"xpos"			"20"
+			"xpos"			"47"
 			"ypos"			"9"
 			"zpos"			"2"
 			"wide"			"5"

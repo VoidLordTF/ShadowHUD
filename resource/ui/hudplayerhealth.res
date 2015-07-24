@@ -158,7 +158,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillColor"		"0 0 0 140"
+		"fillColor"		"0 0 0 150"
 	}
 	"PlayerStatusBleedImage"	
 	{
